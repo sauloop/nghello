@@ -21,13 +21,13 @@ public class TestController {
 	private static List<Employee> createList() {
 		List<Employee> tempEmployees = new ArrayList<>();
 		Employee emp1 = new Employee();
-		emp1.setName("emp1");
+		emp1.setName("fulano");
 		emp1.setDesignation("manager");
 		emp1.setEmpId("1");
-		emp1.setSalary(3000);
+		emp1.setSalary(500);
 		Employee emp2 = new Employee();
-		emp2.setName("emp2");
-		emp2.setDesignation("developer");
+		emp2.setName("mengano");
+//		emp2.setDesignation("developer");
 		emp2.setEmpId("2");
 		emp2.setSalary(3000);
 		tempEmployees.add(emp1);
