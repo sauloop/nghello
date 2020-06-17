@@ -22,14 +22,14 @@ public class TestController {
 		List<Employee> tempEmployees = new ArrayList<>();
 		Employee emp1 = new Employee();
 		emp1.setName("fulano");
-		emp1.setDesignation("manager");
+		emp1.setDesignation("supervisor");
 		emp1.setEmpId("1");
-		emp1.setSalary(500);
+		emp1.setSalary(3000);
 		Employee emp2 = new Employee();
 		emp2.setName("mengano");
-//		emp2.setDesignation("developer");
+		emp2.setDesignation("contable");
 		emp2.setEmpId("2");
-		emp2.setSalary(3000);
+		emp2.setSalary(1000);
 		tempEmployees.add(emp1);
 		tempEmployees.add(emp2);
 		return tempEmployees;
